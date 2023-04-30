@@ -1,0 +1,38 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 92c61e55-0d4d-40b9-a242-e07a5656507b)
+
+  (paper "B")
+
+  (title_block
+    (title "WiHi Dev Board")
+    (date "2023-03-27")
+    (rev "-")
+    (comment 1 "Designer: Dylan Gutierrez")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 76.2 93.98) (size 95.885 64.135) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 450c1829-c8d6-47e9-8459-715f4c09f843)
+    (property "Sheetname" "Wireless Power Reciever Qi" (at 76.2 92.4034 0)
+      (effects (font (size 3 3)) (justify left bottom))
+    )
+    (property "Sheetfile" "Wireless Rx.kicad_sch" (at 76.2 158.6996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WiHi"
+        (path "/92c61e55-0d4d-40b9-a242-e07a5656507b" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
